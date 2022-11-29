@@ -1,0 +1,115 @@
+{
+  "entry": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\src\\index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "paths": {
+    "ROOT": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql",
+    "LOCAL_NODE_MODULES": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\node_modules\\react-static\\node_modules",
+    "SRC": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\src",
+    "PAGES": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\src\\pages",
+    "DIST": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\dist",
+    "ASSETS": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\dist",
+    "PLUGINS": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\plugins",
+    "TEMP": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\tmp",
+    "BUILD_ARTIFACTS": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\artifacts",
+    "PUBLIC": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\public",
+    "NODE_MODULES": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\node_modules",
+    "PACKAGE": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql\\dist\\staticData"
+  },
+  "plugins": [
+    {
+      "location": "C:\\Users\\kaveh.GNCO\\Desktop\\graphql-engine\\community\\sample-apps\\react-static-graphql",
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "src\\pages\\404.js",
+      "isPage": true,
+      "originalPath": "404",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/404.js"
+    },
+    {
+      "path": "about",
+      "component": "src\\pages\\about.js",
+      "isPage": true,
+      "originalPath": "about",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/about.js"
+    },
+    {
+      "path": "blog",
+      "component": "src\\pages\\blog.js",
+      "isPage": true,
+      "originalPath": "blog",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/blog.js"
+    },
+    {
+      "path": "blog/1",
+      "component": "src/containers/Post",
+      "originalPath": "1",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/2",
+      "component": "src/containers/Post",
+      "originalPath": "2",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/4",
+      "component": "src/containers/Post",
+      "originalPath": "4",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "/",
+      "component": "src\\pages\\index.js",
+      "isPage": true,
+      "originalPath": "/",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/index.js"
+    }
+  ],
+  "templates": [
+    "../src/pages/404.js",
+    "../src/pages/about.js",
+    "../src/pages/blog.js",
+    "../src/containers/Post",
+    "../src/pages/index.js"
+  ]
+}
